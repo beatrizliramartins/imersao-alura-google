@@ -1,13 +1,14 @@
 import streamlit as st
 import google.generativeai as genai
-import config
+
 
 
 
 
 # Definição das chaves e configuração do Google GenAI
 GOOGLE_API_KEY = "AIzaSyCUOAYnF-klkCWbh_Mzg0NG4w0DOO1tOyw"
-genai.configure(api_key=config.GOOGLE_API_KEY)
+genai.configure(api_key=GOOGLE_API_KEY)
+     
 
 # Configuração do modelo GenAI
 generation_Config = {
