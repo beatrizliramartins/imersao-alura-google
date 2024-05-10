@@ -6,7 +6,7 @@ import config
 
 
 # Definição das chaves e configuração do Google GenAI
-GOOGLE_API_KEY = "GOOGLE_API_KEY"
+GOOGLE_API_KEY = "AIzaSyCUOAYnF-klkCWbh_Mzg0NG4w0DOO1tOyw"
 genai.configure(api_key=config.GOOGLE_API_KEY)
 
 # Configuração do modelo GenAI
